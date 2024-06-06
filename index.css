@@ -1,0 +1,90 @@
+/* Complete the CSS styling according to the provided design */
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+body {
+background-image: url(/RainbowSixSiege.jpg);
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+h1 {
+    color: goldenrod;
+    text-shadow: 1vw 1vw 1vw darkred;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    font-size: 13vw;
+    margin-top: 0vw;
+}
+h2 {
+    text-align: center;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: -1vw 0vw 2vw white;
+    margin-top: -8vw;
+    font-size: 10vw;
+}
+.namepress {
+text-align: center;
+}
+button {
+    width: 40vw;
+    height: 11vw;
+    border-radius: 20%;
+    background-color: gold;
+    color: black;
+    font-size: 6vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0vw 0.5vw 3vw red;
+}
+button:hover {
+    width: 43vw;
+    height: 13vw;
+    border-radius: 20%;
+    background-color: gold;
+    color: white;
+    font-size: 6vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0vw 0.5vw 3vw red;
+}
+#names {
+    color: blue;
+    text-shadow: 2vw -.5vw 1.5vw white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 7vw;
+}
+.box {
+    background-color: darkred;
+    text-shadow: none;
+    color: white;
+    font-size: 10vw;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#tullybox {
+    position: absolute;
+    top: 80vw;
+    height: 13vw;
+    width: 40vw;
+    left: 35vw;
+}
+#tylerbox {
+    position: absolute;
+    top: 95vw;
+    height: 13vw;
+    width: 40vw;
+    left: 35vw;
+}
+#randombox {
+    position: absolute;
+    top: 112vw;
+    height: 13vw;
+    width: 40vw;
+    left: 35vw;
+}
