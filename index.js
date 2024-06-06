@@ -38,4 +38,4 @@ const countersArray = [tullyCounter, tylerCounter, randomCounter];
 localStorage.setItem('counts', JSON.stringify(countersArray));
 const counterData = JSON.parse(localStorage.getItem('counts'))
 console.log(counterData)
-//alarm()
+alarm()
