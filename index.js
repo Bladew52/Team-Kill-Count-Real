@@ -7,6 +7,9 @@ let randomCount = document.getElementById("randombox")
 let tullyCounter = 0
 let tylerCounter = 0
 let randomCounter = 0
+function alarm() {
+    alert("Why did you do it man. You're better than this. This bloodshed is needless.")
+}
 
 tully.addEventListener("click", function() {
   tullyCounter ++; 
@@ -26,4 +29,4 @@ random.addEventListener("click", function() {
 const countersArray = [tullyCounter, tylerCounter, randomCounter];
 localStorage.setItem('counts', JSON.stringify(countersArray));
 const counterData = JSON.parse(localStorage.getItem('counts'))
-console.log(counterData)
+alarm()
