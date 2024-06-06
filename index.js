@@ -1,16 +1,19 @@
 let tully = document.getElementById("tullybutton")
 let tyler = document.getElementById("tylerbutton")
+let riley = document.getElementById("rileybutton")
 let random = document.getElementById("randombutton")
 let tullyCount = document.getElementById("tullybox")
 let tylerCount = document.getElementById("tylerbox")
+let rileyCount = document.getElementById("rileybox")
 let randomCount = document.getElementById("randombox")
 let tullyCounter = 0
 let tylerCounter = 0
+let rileyCounter = 0
 let randomCounter = 0
+
 function alarm() {
     alert("Why did you do it man. You're better than this. This bloodshed is needless.")
 }
-
 tully.addEventListener("click", function() {
   tullyCounter ++; 
    tullyCount.textContent = tullyCounter
@@ -21,6 +24,11 @@ tyler.addEventListener("click", function() {
    tylerCount.textContent = tylerCounter
    localStorage.setItem('counts', JSON.stringify(countersArray));
 });
+riley.addEventListener("click", function() {
+  rileyCounter ++; 
+   rileyCount.textContent = rileyCounter
+   localStorage.setItem('counts', JSON.stringify(countersArray));
+});
 random.addEventListener("click", function() {
   randomCounter ++; 
    randomCount.textContent = randomCounter
@@ -29,4 +37,5 @@ random.addEventListener("click", function() {
 const countersArray = [tullyCounter, tylerCounter, randomCounter];
 localStorage.setItem('counts', JSON.stringify(countersArray));
 const counterData = JSON.parse(localStorage.getItem('counts'))
-alarm()
+console.log(counterData)
+//alarm()
