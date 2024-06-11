@@ -17,7 +17,7 @@ tylerCount.textContent = JSON.parse(localStorage.getItem('tylerKills'));
 rileyCount.textContent = JSON.parse(localStorage.getItem('rileyKills'));
 randomCount.textContent = JSON.parse(localStorage.getItem('randomKills'));
 function alarm() {
-    alert("Seems like it may be a skill issue. Try not to be such a scrub next time.")
+    alert("Why did you do it man? You're better than this. This bloodshed is needless.")
 }
 alarm()
 
@@ -46,6 +46,6 @@ let randomCounter = JSON.parse(localStorage.getItem('randomKills',));
    localStorage.setItem('randomKills', JSON.stringify(randomCounter));
 });
 
-//localStorage.clear()
+
 
   
