@@ -45,7 +45,10 @@ let randomCounter = JSON.parse(localStorage.getItem('randomKills',));
     randomCount.textContent = randomCounter
    localStorage.setItem('randomKills', JSON.stringify(randomCounter));
 });
-
+function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
 
 
   
